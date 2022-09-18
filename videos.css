@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+body
+{
+    background-color: #E6E6FA;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.navbar
+{
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 34px;
+}
+
+.main-menu
+{
+    display: flex;
+    list-style: none;
+
+}
+
+.main-menu > li
+{
+    height:50px;
+    width:100px;
+    line-height: 50px;
+    padding: 0 2em;
+    margin: 1px;
+    transition: 0.5s linear all;
+    background-color:  #329680;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+i
+{
+    margin-right: 5px;
+}
+
+.main-menu > li
+{
+  font-family: 'Roboto Slab', serif;
+  /* font-weight:normal; */
+}
+
+.main-menu > li:hover:not(.Lectures)
+{
+    background: linear-gradient(to right, #329680,  #09bab1);
+    color: white;
+}
+
+.main-menu > .Lectures
+{
+    color: white;
+    background-color: #09bab1;
+    cursor: default;
+    text-shadow: 1px 1px 1px  #175b52;
+    font-size: 18px;
+}
+h1
+{
+  margin-top: 120px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 36px;
+  font-weight:normal;
+  color: white;
+}
+
+header
+{
+  display: flex;
+  background-color: #191970;
+  height: 301px;
+  vertical-align: center;
+  text-align:center;
+  flex-direction:column;
+}
+
+#lec1, #lec2, #lec3, #lec4, #lec5, #lec6
+{
+  width:350p x;
+  margin: 5px;
+  padding: 15px;
+}
+.flex-container
+{
+  display: flex;
+  margin: 10px;
+  margin-top: 50px;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+
+
+.firstItem, .secondItem, .thirdItem, .fourthItem, .fifthItem, .sixthItem
+{
+  display: flex;
+  border-bottom: 2px solid #bbbfbf;
+  margin-bottom: 5px;
+}
+
+#lec1, #lec2, #lec3, #lec4, #lec5, #lec6
+{
+  margin-left:-15px;
+}
+
+hr
+{
+   display: flex;
+   flex-direction: column;
+}
+
+li
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: black;
+}
+
+.buttons {
+	color: #34495e;
+  text-decoration: none;
+}
+
+h3
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+footer
+{
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 10px;
+  color: white;
+  background-color:  #191970;
+}
+#copyright, #gmail
+{
+  padding: 4px;
+  margim-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}

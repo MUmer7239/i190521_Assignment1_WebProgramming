@@ -1,0 +1,238 @@
+body
+{
+    /* background-color: #12123d; */
+    background-image: url('bgimage.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.navbar
+{
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   /* margin-top: 34px; */
+}
+
+.main-menu
+{
+    display: flex;
+    list-style: none;
+
+}
+
+.main-menu > li
+{
+    height:50px;
+    width:100px;
+    line-height: 50px;
+    padding: 0 2em;
+    margin: 1px;
+    transition: 0.5s linear all;
+    /* background-color:  #329680; */
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.main-menu > li
+{
+  font-family: 'Roboto Slab', serif;
+  /* font-weight:normal; */
+}
+
+.main-menu > li:hover
+{
+    /* background: linear-gradient(to right, #329680,  #09bab1); */
+    color: white;
+}
+
+header
+{
+  margin-top: -16px;
+  background-color: #09bab1;
+}i
+{
+    margin-right: 5px;
+}
+
+.intro
+{
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: white;
+  /* background-color: red; */
+  width: 25%;
+}
+
+.intro
+{
+position: absolute;
+top:40%;
+margin-left: 10%;
+}
+
+#welcome, #name, #professsion{
+  margin: 0;
+}
+
+#welcome{
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+#name
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  line-height: 32px;
+  font-weight: bolder;
+  color: white;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#Introduction
+{
+  margin-top: 0px;
+  margin-bottom:0px;
+  line-height: 20px;
+}
+
+#professsion
+{
+margin-bottom: 0px;
+}
+
+.profile-image
+{
+  position: absolute;
+  top:40%;
+  margin-left: 70%;
+}
+
+#pic
+{
+  width: 190px;
+  height: 190px;
+  padding: 4px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #09bab1;
+  border-width: 7px;
+}
+
+#orbit
+{
+  margin-bottom: 170px;
+  margin-right: 164px;
+}
+
+#portfolio-heading
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 45px;
+  line-height: 32px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#latest-projects
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #d4d2d2;
+  margin-bottom: 35px;
+  font-weight: normal;
+}
+
+.portfolio
+{
+  margin-top : 675px;
+  text-align: center;
+}
+
+.projects
+{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-left: 10px;
+}
+
+#p1-name, #p2-name, #p3-name
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 25px;
+    line-height: 32px;
+    margin-top: 0px;
+    /* background-color: #89a5e7; */
+
+}
+
+.p1
+{
+  width: 400px;
+  /* margin-top:-25px; */
+  background-color: white;
+  border-radius: 10%;
+  color: black;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.p2
+{
+
+  width: 400px;
+  /* margin-top:-25px; */
+  background-color: white;
+  border-radius: 10%;
+  color: black;
+  text-align: center;
+  margin-right: 10px;
+
+
+}
+
+.p3
+{
+
+  width: 400px;
+  /* margin-top:-25px; */
+  background-color: white;
+  border-radius: 10%;
+  color: black;
+  text-align: center;
+  margin-right: 0px;
+
+
+}
+
+#p1-details, #p2-details, #p3-details
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+#p1-image, #p2-image, #p3-image
+{
+  width:400px;
+  height: 300px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  /* opacity: 0.6; */
+}
